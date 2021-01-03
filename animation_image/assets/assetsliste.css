@@ -1,0 +1,70 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+header img {
+    width: auto;
+}
+
+body {
+    margin: 0;
+}
+
+#spilelementer img {
+    max-width: 10%
+}
+
+#figurebevægelse img {
+    max-width: 20%
+}
+
+#UI_elementer img {
+    max-width: 10%
+}
+
+
+#spilskærme img {
+    max-width: 100%
+}
+
+nav {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(142, 211, 112, 0.64);
+
+}
+
+nav a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #436734;
+    margin-right: 2rem;
+}
+
+section {
+    background-color: #8ed370;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin: 0.1rem;
+}
+
+section p {
+    font-size: 0.9rem;
+    color: #aaff84;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #253e1b;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+}

@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+
+main {
+    max-width: 1080px;
+    margin: 4rem auto;
+    margin-top: 1rem;
+}
+
+
+body {
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+nav a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #9a9a9a;
+}
+
+/* Navigation */
+nav {
+    position: relative;
+    /*z-index: 1;*/
+    text-align: center;
+
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+header {
+    background-color: white;
+    padding-bottom: 7vh;
+}
+
+
+nav ul {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+    margin-top: 7vh
+}
+
+nav a {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+#menu {
+    transition: transform 0.3s;
+    transform-origin: top top;
+}
+
+#menuknap {
+    cursor: pointer;
+    padding-left: 80vw;
+    padding-top: 3rem;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 1px;
+    background-color: #9a9a9a;
+    margin: 10px 0;
+    transition: 0.4s;
+}
+
+#menu li {
+    list-style: none;
+    padding: 2vh;
+
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media (min-width:600px) {
+    /*Navigation*/
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        opacity: 1;
+
+    }
+
+    #menu li {
+        display: inline-block;
+        margin: 1rem;
+        padding: 0;
+
+    }
+
+    nav ul {
+        position: relative;
+        padding-left: 0;
+        background: none;
+        height: 2rem;
+        width: 100%;
+        margin: 0;
+    }
+
+    nav {
+        position: relative;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    .logodesktop {
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+        width: 180px;
+    }
+
+    .logomobil {
+        display: none;
+    }
+
+
+    #logo h1 {
+        display: none;
+    }
+}
