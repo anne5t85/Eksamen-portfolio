@@ -60,19 +60,18 @@ section {
     height: 250px;
 }
 
-@media (max-width: 850px) {
-    .image-container {
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-    }
+/*@media (max-width: 850px) {*/
+.image-container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
 
-    .image-container figure {
-        flex-basis: 90%;
-        flex-shrink: 0;
-        scroll-snap-align: center;
-    }
+.image-container figure {
+    flex-basis: 90%;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+}
 
-    .image-container {
-        margin-right: 20px;
-    }
+.image-container {
+    margin-right: 20px;
 }
