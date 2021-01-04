@@ -27,10 +27,38 @@ section {
 
 }
 
+p {
+    font-family: 'Montserrat';
+    /*font-size: 0.8rem;*/
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 6rem;
+    color: #FAF8F2;
+    /*#D7D7D9;*/
+
+}
+
 h2 {
+    color: #555555;
+    font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 2rem;
     padding-bottom: 20px;
+}
+
+h3 {
+    color: #6c6c6c;
+    /*#FCC751;*/
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    color: #9f9f9f;
+    font-family: 'Playfair Display', serif;
+
 }
 
 nav a {
@@ -73,7 +101,7 @@ nav ul {
 }
 
 nav a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
 }
 
