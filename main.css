@@ -21,6 +21,18 @@ img {
 
 }
 
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
 nav a {
     font-family: 'Montserrat';
     text-decoration: none;

@@ -13,9 +13,14 @@ body {
     background: white;
 }
 
-H2 {
-    color: #000000;
-    text-decoration: underline;
+
+h3 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: left;
 }
 
 /*Header*/
@@ -49,10 +54,10 @@ section {
 
 .image-container figcaption {
     padding: 10px;
-    background: #eaeaea;
+    background: rgba(133, 193, 140, 0.63);
 }
 
-#second_section img {
+#fourth_section img {
     height: 250px;
 }
 
@@ -75,16 +80,40 @@ section {
     margin-right: 20px;
 }
 
+#first_section .section_wrapper {
+    padding: 2px 20px 2px 20px;
+    margin: 2px 20px 2px 20px;
+}
+
+#second_section .section_wrapper {
+    padding: 2px 20px 2px 20px;
+    margin: 2px 20px 2px 20px;
+}
+
+#third_section .section_wrapper {
+    padding: 2px 20px 2px 20px;
+    margin: 2px 20px 2px 20px;
+}
+
+#fourth_section .section_wrapper {
+    padding: 2px 20px 2px 20px;
+    margin: 2px 20px 2px 20px;
+}
+
+.col {
+    padding-top: 4rem;
+}
+
 @media (min-width: 600px) {
     #first_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
         grid-gap: 20px;
     }
 
     #second_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr;
         grid-gap: 20px;
     }
 
@@ -96,7 +125,7 @@ section {
 
     #fourth_section .section_wrapper {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
 }
