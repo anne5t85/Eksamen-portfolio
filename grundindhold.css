@@ -29,8 +29,13 @@
 
 #fifth_section .section_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-gap: 0.5rem;
+    height: 251px;
+}
+
+#fifth_section .section_wrapper {
+    background-color: rgba(240, 240, 240, 0.44);
 }
 
 #fifth_section .logo {
@@ -43,9 +48,15 @@
     grid-row: 1/2;
 }
 
-#fifth_section .text {
+#fifth_section .text1 {
     grid-column: 2/3;
     grid-row: 1/2;
+}
+
+#sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
 }
 
 /*pilot video*/
@@ -119,16 +130,71 @@ video {
 }
 
 .logo {
-    width: 290px;
+    width: 278px;
     height: 290px;
 }
 
-#fifth_section .text {
+#fifth_section .text1 {
     width: 290px;
-    height: 290px;
+    padding-left: 22px;
 }
 
-.image-container .hojformat {
-    width: 200px;
-    height: 200px;
+/*overlay ekspempel*/
+.imagecol {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1vh;
+    padding: 1rem;
+    width: 250px;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: white;
+    text-align: center;
+}
+
+.imagecol:hover .overlay {
+    opacity: 1;
+}
+
+.textoverlay {
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textoverlay p {
+    color: #000000;
+}
+
+.textoverlay h3 {
+    font-size: 15px;
+}
+
+.produktknap {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    opacity: 60%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.produktknap a {
+    text-decoration: none;
+    color: black;
 }
