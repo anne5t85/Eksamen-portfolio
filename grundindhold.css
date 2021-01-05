@@ -27,6 +27,27 @@
     grid-gap: 0.5rem;
 }
 
+#fifth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+#fifth_section .logo {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#fifth_section .favicon {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#fifth_section .text {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 /*pilot video*/
 .video1 {
     position: relative;
@@ -90,4 +111,24 @@ video {
 
 .image-container {
     margin-right: 20px;
+}
+
+.favicon {
+    width: 250px;
+    height: 250px;
+}
+
+.logo {
+    width: 290px;
+    height: 290px;
+}
+
+#fifth_section .text {
+    width: 290px;
+    height: 290px;
+}
+
+.image-container .hojformat {
+    width: 200px;
+    height: 200px;
 }
