@@ -85,8 +85,9 @@ nav {
 }
 
 header {
-    background-color: white;
-    padding-bottom: 7vh;
+    padding: 20px;
+    background: #ffffff;
+    text-align: center;
 }
 
 

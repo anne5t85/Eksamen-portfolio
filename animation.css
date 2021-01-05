@@ -23,13 +23,6 @@ p {
     text-align: left;
 }
 
-/*Header*/
-header {
-    padding: 20px;
-    background: #ffffff;
-    text-align: center;
-}
-
 /*main content*/
 main {
     max-width: 1200px;
@@ -47,6 +40,13 @@ section {
     padding: 20px;
 }
 
+#fourth_section img {
+    height: 250px;
+}
+
+#third_section img {
+    height: 250px;
+}
 
 .image-container figure {
     flex-grow: 1;
@@ -55,14 +55,6 @@ section {
 .image-container figcaption {
     padding: 10px;
     background: rgba(133, 193, 140, 0.63);
-}
-
-#fourth_section img {
-    height: 250px;
-}
-
-#third_section img {
-    height: 250px;
 }
 
 .image-container {
