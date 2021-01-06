@@ -114,7 +114,7 @@ nav a {
 #menuknap {
     cursor: pointer;
     padding-left: 80vw;
-    padding-top: 3rem;
+    padding-top: 1rem;
 
 }
 
@@ -187,22 +187,4 @@ nav a {
 
     }
 
-    .logodesktop {
-        display: block;
-        margin-top: 25px;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
-        height: 180px;
-        width: 180px;
-    }
-
-    .logomobil {
-        display: none;
-    }
-
-
-    #logo h1 {
-        display: none;
-    }
 }

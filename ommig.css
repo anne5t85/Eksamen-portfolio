@@ -1,0 +1,7 @@
+#first_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 0;
+}

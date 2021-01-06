@@ -1,14 +1,6 @@
-/*
-img {
-    position: absolute;
-    background-size: cover;
-}
-*/
-
 #first_section {
     width: 100vw;
-/*    height: 45vh;
-    */    background-size: cover;
-/*    background-position: 50% 50%;
-    */    max-width: none;
+    background-size: cover;
+    max-width: none;
+    padding-bottom: 0;
 }

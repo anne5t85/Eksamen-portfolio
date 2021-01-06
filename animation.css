@@ -34,18 +34,18 @@ section {
     margin: 40px 0;
 }
 
-.image-container {
-    display: flex;
-    gap: 15px;
-    padding: 20px;
-}
-
 #fourth_section img {
     height: 250px;
 }
 
 #third_section img {
     height: 250px;
+}
+
+.image-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
 }
 
 .image-container figure {
