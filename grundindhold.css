@@ -59,6 +59,10 @@
     grid-gap: 0.5rem;
 }
 
+#sixth_section {
+    padding-bottom: 0px;
+}
+
 /*pilot video*/
 .video1 {
     position: relative;
