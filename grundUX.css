@@ -100,6 +100,8 @@ section {
 #first_section .titel h2 {
     color: #FCEE21;
     text-decoration: underline;
+    padding-top: 0;
+    text-align: center;
 
 }
 
@@ -146,11 +148,11 @@ section {
 .text1 p {
     padding: 20px;
     margin: 0;
-    background-color: #bfdfe6;
+    background-color: rgba(237, 236, 229, 0.67);
 }
 
 .text2 p {
     padding: 20px;
     margin: 0;
-    background-color: #bfdfe6;
+    background-color: rgba(237, 236, 229, 0.67);
 }

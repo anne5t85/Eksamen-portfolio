@@ -48,9 +48,10 @@ h2 {
     color: #555555;
     font-family: 'Poppins', sans-serif;
     /*    font-family: 'Playfair Display', serif;*/
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 20px;
+    text-align: left;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 h3 {
@@ -102,9 +103,9 @@ nav ul {
     z-index: 1;
     padding-left: 0;
     background-color: white;
-    width: 100%;
-    height: 35vh;
-    margin-top: 7vh
+    width: 42%;
+    height: 44vh;
+    margin: 0;
 }
 
 nav a {
@@ -136,9 +137,32 @@ nav a {
 
 #menu li {
     list-style: none;
-    padding: 2vh;
+    padding: 1.5vh;
 
 }
+
+.logodesktop {
+    display: none;
+}
+
+#logo h1 {
+    font-size: 8vw;
+    text-align: left;
+    padding-left: 7vw;
+    padding-top: 20px;
+    color: #FDD882;
+    display: none;
+}
+
+.logomobil {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+    margin-left: 37.8vw;
+
+}
+
 
 /* Rotate first bar */
 .change .bar1 {
@@ -193,4 +217,21 @@ nav a {
 
     }
 
+}
+
+.footer {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer a {
+    display: inline-block;
+    color: black;
+    border: 1px solid #f8de10;
+    padding: 8px;
+    margin: 3px;
+    text-decoration: none;
 }
