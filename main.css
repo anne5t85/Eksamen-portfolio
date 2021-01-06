@@ -29,12 +29,14 @@ section {
 }
 
 p {
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Montserrat';*/
     /*font-size: 0.8rem;*/
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Playfair Display', serif;*/
     text-align: center;
     font-size: 6rem;
     color: #FAF8F2;
@@ -44,32 +46,36 @@ h1 {
 
 h2 {
     color: #555555;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Playfair Display', serif;*/
     text-align: center;
     font-size: 2rem;
     padding-bottom: 20px;
 }
 
 h3 {
-    color: #6c6c6c;
+    color: #f8de10;
     /*#FCC751;*/
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Playfair Display', serif;*/
 }
 
 h4 {
     color: #9f9f9f;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Playfair Display', serif;*/
 
 }
 
 nav a {
-    font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif;
+    /*    font-family: 'Montserrat';*/
     text-decoration: none;
     color: black;
 }
 
 nav a:hover {
-    color: #9a9a9a;
+    color: #FCEE21;
 }
 
 /* Navigation */

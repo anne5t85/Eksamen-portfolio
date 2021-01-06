@@ -98,7 +98,9 @@ section {
 }
 
 #first_section .titel h2 {
-    color: #ffffff
+    color: #FCEE21;
+    text-decoration: underline;
+
 }
 
 #first_section .image1 {
