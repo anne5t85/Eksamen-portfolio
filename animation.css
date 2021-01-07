@@ -16,6 +16,7 @@ h3 {
 
 p {
     text-align: left;
+
 }
 
 /*main content*/
@@ -23,6 +24,7 @@ p {
 section {
     text-align: center;
     margin: 40px 0;
+    padding-bottom: 0;
 }
 
 #fourth_section img {
@@ -63,7 +65,9 @@ section {
     margin-right: 20px;
 }
 
-
+.text {
+    padding: 20px;
+}
 
 
 @media (min-width: 600px) {

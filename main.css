@@ -5,8 +5,8 @@
 
 main {
     max-width: 1080px;
-    margin: 4rem auto;
-    margin-top: 1rem;
+    margin: 1.5rem auto;
+    /*    margin-top: 1rem;*/
 }
 
 
@@ -24,7 +24,7 @@ img {
 section {
     max-width: 1200px;
     margin: 0 auto;
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
 
 }
 
@@ -50,8 +50,9 @@ h2 {
     /*    font-family: 'Playfair Display', serif;*/
     text-align: left;
     font-size: 1.5rem;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 20px;
 }
 
 h3 {
@@ -82,8 +83,9 @@ nav a:hover {
 /* Navigation */
 nav {
     position: relative;
-    /*z-index: 1;*/
-    text-align: center;
+    /*    z-index: 1;
+    */
+    text-align: left;
 
 }
 
@@ -103,7 +105,7 @@ nav ul {
     z-index: 1;
     padding-left: 0;
     background-color: white;
-    width: 42%;
+    width: 100%;
     height: 44vh;
     margin: 0;
 }
@@ -115,7 +117,7 @@ nav a {
 
 #menu {
     transition: transform 0.3s;
-    transform-origin: top top;
+    transform-origin: top;
 }
 
 #menuknap {
@@ -130,7 +132,7 @@ nav a {
 .bar3 {
     width: 30px;
     height: 1px;
-    background-color: #9a9a9a;
+    background-color: #FCEE21;
     margin: 10px 0;
     transition: 0.4s;
 }
@@ -138,28 +140,6 @@ nav a {
 #menu li {
     list-style: none;
     padding: 1.5vh;
-
-}
-
-.logodesktop {
-    display: none;
-}
-
-#logo h1 {
-    font-size: 8vw;
-    text-align: left;
-    padding-left: 7vw;
-    padding-top: 20px;
-    color: #FDD882;
-    display: none;
-}
-
-.logomobil {
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    margin-top: 1rem;
-    margin-left: 37.8vw;
 
 }
 
@@ -217,6 +197,14 @@ nav a {
 
     }
 
+    section {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 6rem;
+
+    }
+
+
 }
 
 .footer {
@@ -234,4 +222,8 @@ nav a {
     padding: 8px;
     margin: 3px;
     text-decoration: none;
+}
+
+.footer a:hover {
+    color: #FCEE21;
 }
