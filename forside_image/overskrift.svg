@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="777" height="260" viewBox="0 0 777 260">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 91px;
+      }
+
+      .cls-1, .cls-5 {
+        font-family: NeusaNextStd-Light, Neusa Next Std;
+        font-weight: 300;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.03em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        font-size: 95px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g>
+      <text class="cls-1" transform="translate(42.31 106.21)"><tspan class="cls-2">P</tspan><tspan x="54.78" y="0">ort</tspan><tspan class="cls-3" x="165.25" y="0">f</tspan><tspan x="191.64" y="0">olio </tspan><tspan class="cls-4" x="352.34" y="0">eksamen</tspan></text>
+      <text class="cls-5" transform="translate(92.69 229.89)">KEA 20<tspan class="cls-6" x="302.66" y="0">2</tspan><tspan class="cls-4" x="358.9" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>
