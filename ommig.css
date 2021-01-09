@@ -1,13 +1,17 @@
+.text {
+    padding: 2rem;
+}
+
 @media (min-width: 600px) {
     #first_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 2fr 2fr 1fr;
         grid-gap: 2rem;
         padding-top: 6rem;
         padding-bottom: 0;
     }
-}
 
-.text {
-    padding: 2rem;
+    .text {
+        padding: 0;
+    }
 }

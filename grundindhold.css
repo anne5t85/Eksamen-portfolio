@@ -41,6 +41,12 @@
         grid-row: 1/2;
     }
 
+    #fourth_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
     /*section4*/
     #fourth_section {
         padding-bottom: 0px;
@@ -76,15 +82,17 @@
         padding-bottom: 0;
     }
 
-    .favicon {
-        width: 250px;
-        height: 250px;
-    }
 
-    .logo {
-        width: 278px;
-        height: 290px;
-    }
+}
+
+.favicon {
+    width: 250px;
+    height: 250px;
+}
+
+.logo {
+    width: 278px;
+    height: 290px;
 }
 
 /*pilot video*/
@@ -152,15 +160,6 @@ video {
     margin-right: 20px;
 }
 
-.favicon {
-    width: 250px;
-    height: 250px;
-}
-
-.logo {
-    width: 278px;
-    height: 290px;
-}
 
 #fifth_section .text1 {
     width: 290px;
