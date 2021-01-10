@@ -1,19 +1,40 @@
-/*
 #first_section {
     width: 100vw;
     background-size: cover;
     max-width: none;
     padding-bottom: 0;
 }
-*/
 
-#first_section {
+/*
+#background_section {
     width: 100vw;
     height: 45vh;
     background-image: url(forside_image/baggrund.jpg);
     background-size: cover;
     background-position: 50% 50%;
     max-width: none;
+}
+
+#font_section {
+    width: 48%;
+    height: 33%;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(forside_image/overskrift.svg);
+    background-size: cover;
+    left: 9vw;
+    top: 8vw;
+}
+
+#logo_section {
+    width: 20%;
+    height: 37%;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(forside_image/logo.svg);
+    background-size: cover;
+    left: 21vw;
+    top: 26vw;
 }
 
 @media (min-width: 600px) {
@@ -47,4 +68,4 @@
         left: 21vw;
         top: 26vw;
     }
-}
+}*/
