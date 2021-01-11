@@ -196,7 +196,6 @@ video {
 }
 
 .textoverlay {
-    font-size: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -208,10 +207,12 @@ video {
 
 .textoverlay p {
     color: #000000;
+    font-size: 12px;
+
 }
 
 .textoverlay h3 {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .produktknap {
