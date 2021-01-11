@@ -1,45 +1,46 @@
+/*
 #first_section {
     width: 100vw;
     background-size: cover;
     max-width: none;
     padding-bottom: 0;
-}
+}*/
 
-/*
-#background_section {
-    width: 100vw;
-    height: 45vh;
+
+#first_section {
+    width: 100%;
+    height: 89vh;
     background-image: url(forside_image/baggrund.jpg);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 56% 50%;
     max-width: none;
 }
 
-#font_section {
-    width: 48%;
-    height: 33%;
-    position: absolute;
-    cursor: pointer;
-    background-image: url(forside_image/overskrift.svg);
-    background-size: cover;
-    left: 9vw;
-    top: 8vw;
+#first_section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #FAF8F2;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 150px;
 }
 
-#logo_section {
-    width: 20%;
-    height: 37%;
-    position: absolute;
-    cursor: pointer;
-    background-image: url(forside_image/logo.svg);
-    background-size: cover;
-    left: 21vw;
-    top: 26vw;
+
+@media (min-width:500px) {
+    #first_section h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 10px;
+        padding-top: 150px;
+    }
 }
 
-@media (min-width: 600px) {
-    #background_section {
-        width: 100vw;
+@media (min-width:730px) {
+
+    #first_section {
+        width: 100%;
         height: 100vh;
         background-image: url(forside_image/baggrund.jpg);
         background-size: cover;
@@ -47,25 +48,102 @@
         max-width: none;
     }
 
-    #font_section {
-        width: 48%;
-        height: 33%;
-        position: absolute;
-        cursor: pointer;
-        background-image: url(forside_image/overskrift.svg);
-        background-size: cover;
-        left: 9vw;
-        top: 8vw;
+    #first_section h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.1rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 150px;
+    }
+}
+
+@media (min-width:830px) {
+    #first_section h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.2rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 150px;
     }
 
-    #logo_section {
-        width: 20%;
-        height: 37%;
-        position: absolute;
-        cursor: pointer;
-        background-image: url(forside_image/logo.svg);
-        background-size: cover;
-        left: 21vw;
-        top: 26vw;
+    /*
+#first_section .logo_navn {
+    width: 23%;
+    height: 29vh;
+    position: absolute;
+    left: 19vw;
+}
+*/
+}
+
+@media (min-width:880px) {
+    #first_section h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 3.5rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 85px;
+        padding-top: 150px;
     }
-}*/
+
+    /*
+    #first_section .logo_navn {
+        width: 23%;
+        height: 29vh;
+        position: absolute;
+        left: 19vw;
+    }
+*/
+}
+
+@media (min-width:1000px) {
+    #first_section h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 4rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 205px;
+        padding-top: 150px;
+    }
+
+    /*
+    #first_section .logo_navn {
+        width: 23%;
+        height: 29vh;
+        position: absolute;
+        left: 19vw;
+    }
+*/
+}
+
+.logo {
+    position: absolute;
+    width: 24vw;
+    height: 24vw;
+    background-image: url(forside_image/logo.svg);
+    background-size: 100%;
+
+    top: 22vw;
+    left: 19vw;
+}
+
+
+.rotation {
+    animation-name: rotation_kf;
+    animation-duration: 14s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation_kf {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

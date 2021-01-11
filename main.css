@@ -30,17 +30,15 @@ section {
 p {
     font-family: 'Poppins', sans-serif;
     /*    font-family: 'Montserrat';*/
-    /*font-size: 0.8rem;*/
+    font-size: 0.8rem;
 }
 
 h1 {
     font-family: 'Poppins', sans-serif;
     /*    font-family: 'Playfair Display', serif;*/
-    text-align: center;
-    font-size: 6rem;
+    font-size: 2rem;
     color: #FAF8F2;
-    /*#D7D7D9;*/
-
+    margin: 0;
 }
 
 h2 {
@@ -133,7 +131,7 @@ nav a {
 .bar3 {
     width: 30px;
     height: 1px;
-    background-color: #FCEE21;
+    background-color: black;
     margin: 10px 0;
     transition: 0.4s;
 }
