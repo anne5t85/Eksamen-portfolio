@@ -4,28 +4,6 @@ img {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*Gobal styles*/
-body {
-    background: white;
-}
-
-
-h3 {
-    text-align: left;
-}
-
-p {
-    text-align: left;
-
-}
-
-/*main content*/
-
-section {
-    text-align: center;
-    margin: 40px 0;
-    padding-bottom: 0;
-}
 
 #fourth_section img {
     height: 250px;
@@ -106,6 +84,8 @@ section {
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
+    left: 31vw;
+
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
 
 }

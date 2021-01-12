@@ -1,19 +1,11 @@
-/*
-#first_section {
-    width: 100vw;
-    background-size: cover;
-    max-width: none;
-    padding-bottom: 0;
-}*/
-
-
 #first_section {
     width: 100%;
     height: 89vh;
-    background-image: url(forside_image/baggrund.jpg);
+    background-image: url(forside_image/nytforside.jpg);
     background-size: cover;
     background-position: 56% 50%;
     max-width: none;
+    padding-bottom: 0;
 }
 
 #first_section h1 {
@@ -56,6 +48,18 @@
         padding-left: 10px;
         padding-top: 150px;
     }
+
+    .logo {
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-image: url(forside_image/logo.svg);
+        background-size: 100%;
+
+        top: 60vw;
+        left: 8vw;
+    }
+
 }
 
 @media (min-width:730px) {
@@ -77,6 +81,27 @@
         padding-left: 50px;
         padding-top: 150px;
     }
+
+    #first_section h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.4rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 50px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .logo {
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-image: url(forside_image/logo.svg);
+        background-size: 100%;
+
+        top: 48vw;
+        left: 8vw;
+    }
 }
 
 @media (min-width:830px) {
@@ -89,14 +114,26 @@
         padding-top: 150px;
     }
 
-    /*
-#first_section .logo_navn {
-    width: 23%;
-    height: 29vh;
-    position: absolute;
-    left: 19vw;
-}
-*/
+    #first_section h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.8rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 50px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .logo {
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-image: url(forside_image/logo.svg);
+        background-size: 100%;
+
+        top: 45vw;
+        left: 8vw;
+    }
 }
 
 @media (min-width:880px) {
@@ -109,14 +146,26 @@
         padding-top: 150px;
     }
 
-    /*
-    #first_section .logo_navn {
-        width: 23%;
-        height: 29vh;
-        position: absolute;
-        left: 19vw;
+    #first_section h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.8rem;
+        color: #FAF8F2;
+        margin: 0;
+        padding-left: 85px;
+        padding-bottom: 0;
+        padding-top: 0;
     }
-*/
+
+    .logo {
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background-image: url(forside_image/logo.svg);
+        background-size: 100%;
+
+        top: 40vw;
+        left: 8vw;
+    }
 }
 
 @media (min-width:1000px) {
