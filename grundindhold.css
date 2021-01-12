@@ -169,7 +169,7 @@ video {
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    left: 45vw;
+    left: 39vw;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -311,5 +311,19 @@ iframe {
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 0px;
+    }
+
+    .button1 {
+        position: relative;
+        display: inline-block;
+        background-color: #d6d6d6;
+        text-decoration: none;
+        border-radius: 4px;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        padding: 10px;
+        left: 31vw;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19);
+
     }
 }

@@ -23,11 +23,6 @@ img {
     flex-grow: 1;
 }
 
-.image-container figcaption {
-    padding: 10px;
-    background: white;
-}
-
 .image-container {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
